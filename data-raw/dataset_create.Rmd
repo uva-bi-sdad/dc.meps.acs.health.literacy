@@ -5,23 +5,19 @@ date: "11/18/2021"
 output: html_document
 dataset:
   citation:
-      title: "Social Data Commons: your title here"
+      title: "Social Data Commons: Education & Training: Health Literacy Estimates"
       subtitle: ""
-      dsDescriptionValue: "Virginia Standards of Learning Test Scores collected by the Virginia Department of Education (VDOE)"
+      dsDescriptionValue: "Health literacy estimates computed using MEPS 2019 survey questions and imputed using ACS 2019 demographics"
       subject: "Social Sciences (Ex: Education, Politics, Sociology, Economics, Psychology)"
-      productionDate: "2021-11-17"
-      timePeriodCoveredStart: "2015-01-01"
-      timePeriodCoveredEnd: "2021-01-01"
+      productionDate: "2022-02-23"
+      timePeriodCoveredStart: "2019-01-01"
+      timePeriodCoveredEnd: "2019-12-31"
       dataSources:
         - "ACS"
-        - "County Health Rankings"
+        - "MEPS"
       author:
-        - authorName: "Schroeder, Aaron"
-          authorAffiliation: "Univeristy of Virginia"
         - authorName: "Charankevich, Hanna"
           authorAffiliation: "Univeristy of Virginia"
-        - authorName: "Niagra, Bob"
-          authorAffiliation: "Univeristy of Waterloo"
       datasetContact:
         - datasetContactEmail: "ads7fg@virginia.edu"
           datasetContactName: "Schroeder, Aaron"
@@ -32,6 +28,7 @@ dataset:
     geographicUnit:
       - "State Health District"
       - "County"
+      - "Census Tract"
 ---
 
 ```{r setup, include=FALSE}

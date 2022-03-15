@@ -1,0 +1,27 @@
+{
+  "name": "dc.meps.acs.health.literacy",
+  "data": [
+    {
+      "name": "health_literacy_estimates",
+      "variables": "health_literacy_estimate",
+      "file": "va_hccttr_sdad_2019_health_literacy_estimates.csv.xz",
+      "size": 13800,
+      "md5": "14a42ebf428eed059434b60fcc567e75"
+    }
+  ],
+  "distributions": {
+    "dataverse": {
+      "id": 55931,
+      "doi": "doi:10.18130/V3/I62MW4",
+      "server": "https://dataverse.lib.virginia.edu/",
+      "data": [
+        {
+          "file": "va_hccttr_sdad_2019_health_literacy_estimates.csv.xz",
+          "id": 55932,
+          "size": 13800,
+          "md5": "14a42ebf428eed059434b60fcc567e75"
+        }
+      ]
+    }
+  }
+}
